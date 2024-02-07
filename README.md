@@ -22,17 +22,12 @@ Here is the list of the first year course for the Spring and the Autumn Semester
 - Inorganic and Organic Chemistry **(CH102)** by *Dr Raja Mitra*
 
 ## Autumn Semester
-i. Basic Linear Algebra **(MA102)** by *Dr Kalpesh Haria*
-
-ii. Introduction to Electrical Engineering **(EE101)** by *Dr Apeksha Madhukar*
-
-iii. Introduction to Biology **(BIO101)** by *Dr Shreenath Balkrishnan*
-
-iv. [Software Tools](https://clintpgeorge.github.io/cs-102/spring-2024/) **(CS102)** by *Dr Clint Pazhayidam George*
-
-v. Electricity and Magnetism **(PH102)** by *Dr Vaibhav Wasnik*
-
-vi. Engineering Drawing **(ME102)** by *Dr Arindam Das*
+ i. Basic Linear Algebra **(MA102)** by *Dr Kalpesh Haria*  
+ ii. Introduction to Electrical Engineering **(EE101)** by *Dr Apeksha Madhukar*  
+ iii. Introduction to Biology **(BIO101)** by *Dr Shreenath Balkrishnan*  
+ iv. [Software Tools](https://clintpgeorge.github.io/cs-102/spring-2024/) **(CS102)** by *Dr Clint Pazhayidam George*  
+ v. Electricity and Magnetism **(PH102)** by *Dr Vaibhav Wasnik*  
+ vi. Engineering Drawing **(ME102)** by *Dr Arindam Das*  
 
 # Hobbies and Interests
 My list of hobbies include :
