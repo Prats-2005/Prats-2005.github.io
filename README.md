@@ -1,6 +1,6 @@
 ![**Pratyush Patel**](https://img.freepik.com/free-vector/it-takes-two-tango-idiom_1308-17930.jpg?w=900&t=st=1707282840~exp=1707283440~hmac=097e48639dd874d371b3559e624ec4d07f8c10ce85eced6ddfc7b525487d30c6)
 
-Hello, my name is **Pratyush Patel**
+Hello, my name is **Pratyush Patel**.
 I am a first year student at IIT Goa pursuing B.Tech in Mathematics and Computing. 
 
 
