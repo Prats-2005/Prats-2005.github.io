@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+.container{
+    height: 100vh;
+}
+
+h1{
+    color: aliceblue;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.one{
+    height:100vh;
+    overflow:hidden;
+}
+.navbar{
+    background-color: black;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 40px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: +1;
+}
+
+.linkbutton{
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 15px;
+    color: #5CDB95;
+}
+.vid-bg{
+    z-index: -1;
+    position: absolute;
+}
+.front{
+    justify-content: center;
+    text-align: center;
+    font-size: 55px;
+}
+.behind{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:-1;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 10px;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left:50%;
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height:0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover{
+    opacity: 1;
+}
+.heading{
+    text-align: center;
+    font-size: xxx-large;
+}
+.name{
+    font-size: 35px;
+    text-align: center;
+    color: #bf8534;
+}
+.disc{
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.next{
+    background-image: url(sand.webp);
+    height: auto;
+}

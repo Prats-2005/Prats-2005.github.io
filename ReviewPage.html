@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{background-color:#020521}
+#containerdiv{ height:350px;width:700px;border:1px solid black;box-shadow:inset 3px 3px 5px rgba(0,0,0,.2), 3px 3px 5px rgba(0,0,0,.2); background-color:#5CDB95;margin-top:200px;float:left
+;margin-left:150px}
+.a{ height:50px;width:90%;margin-top:10px;}
+.b{height:40px;width:90%;border-radius:10px;border:1px solid black ;box-shadow:inset 3px 3px 5px rgba(0,0,0,.2), 3px 3px 5px rgba(0,0,0,.2);font-family: "Courier New", Courier, monospace;font-size:18px;text-shadow:3px 3px 5px;  color:#003399;padding-left:12px;}
+.b:hover{background-color:#bce2e6}
+p{font-size:64px}
+#ratingdiv{ height:350px;width:500px;border:1px solid black;box-shadow:inset 3px 3px 5px rgba(0,0,0,.2), 3px 3px 5px rgba(0,0,0,.2); background-color:#5CDB95;margin-top:200px;float:left;
+margin-left:100px}
+.ratingdiv label {display:block;cursor:pointer;width:50px;background:#ccc;}
+.ratingdiv label before{content:'\f005';font-family:fontAwesome; position:relative; display:block;color:#101010;font-size:50px; }
+
+.ratingdiv label after{content:'\f005';font-family:fontAwesome; position:relative; display:block;color:#;font-size:50px;top:0;opacity:0; transition:0.5;text-shadow:0 2px 5px rgba(0,0,0,0.5)}
+}
+.ratingdiv label:hover: after
+.ratingdiv label :hover ~label:after
+.ratingdiv label :checked ~label:after{opacity :1}
+
+.navbar{
+    background-color: black;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 40px;
+}
+
+.linkbutton{
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+}
+
+.linkbutton:hover{
+    color: black;
+    background-color: white ;
+    border-radius: 15px;
+
+}
+
+</style>
+<script>
+
+
+
+
+</script>
+
+<div class="navbar">
+   <a href="index.html" class="linkbutton">Map Buddy</a>
+   <a href="TourPage.html" class="linkbutton">Tour Spots</a>
+   <a href="about.html" class="linkbutton">About us</a>       
+   <a href="register.html" class="linkbutton">Register</a>  
+   <a href="login.html" class="linkbutton">Login</a>
+</div>
+
+
+
+</head>
+
+<body>
+<center>
+   <div id="ratingdiv">
+<p> Rating</p>
+
+   <i class="fa fa-star" style="font-size:48px;color:white;border:1 px solid black;"></i>
+<i class="fa fa-star" style="font-size:48px;color:white;border:1 px solid black;"></i>
+<i class="fa fa-star" style="font-size:48px;color:white;border:1 px solid black;"></i>
+<i class="fa fa-star" style="font-size:48px;color:white;border:1 px solid black;"></i>
+<i class="fa fa-star" style="font-size:48px;color:white;border:1 px solid black;"></i>
+    </div>
+     <div id="containerdiv">
+           <div class="a">
+               <p>Website reviews</p>
+            </div>
+            <div class="a"></div>
+            <div class="a"><input  type="text" id="uname" name="uname" class="b" placeholder="For more Suggestions about our website........" height="200px"></div>
+             
+			 </div>
+
+      </div>
+
+</center>
+
+
+
+
+
+
+
+</body>
+</html>
